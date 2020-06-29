@@ -5,5 +5,4 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express', name: 'Qudamah Coleman'});
 });
-
 module.exports = router;
