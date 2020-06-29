@@ -11,7 +11,7 @@ var app = express();
 var config = require('./config.dev');
 
 //Test the file
-console.log(config);
+console.log();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
